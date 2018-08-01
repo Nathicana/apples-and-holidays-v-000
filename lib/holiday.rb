@@ -72,12 +72,10 @@ def all_holidays_with_bbq(holiday_hash)
 data.map do |holiday, supplies|
   if supplies.include?("BBQ")
 
-
- return holiday
-
+return holiday
 
 end
 end
 end
-new_array.flatten
+
 end
