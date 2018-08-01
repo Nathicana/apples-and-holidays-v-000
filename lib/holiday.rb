@@ -73,7 +73,7 @@ data.map do |holiday, supplies|
   if supplies.include?("BBQ")
 
 return holiday
-
+new_array.flatten
 end
 end
 end
