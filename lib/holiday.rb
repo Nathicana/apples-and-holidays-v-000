@@ -76,4 +76,5 @@ end
 
 end
 end
+new_array.flatten
 end
