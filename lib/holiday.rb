@@ -74,7 +74,7 @@ holiday  if supplies.include?("BBQ")
 
 end
 end
-new_array.flatten
+new_array.flatten.compact
 end
 
 #{
