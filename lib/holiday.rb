@@ -70,11 +70,27 @@ def all_holidays_with_bbq(holiday_hash)
 data.map do |holiday, supplies|
   if supplies.include?("BBQ")
 
+holiday
 
 
 end
-
 end
 end
 new_array.flatten
 end
+
+#{
+  #:winter => {
+    #:christmas => ["Lights", "Wreath"],
+    #:new_years => ["Party Hats"]
+  #},
+  #:summer => {
+  #  :fourth_of_july => ["Fireworks", "BBQ"]
+  #},
+  #:fall => {
+  #  :thanksgiving => ["Turkey"]
+  #},
+  #:spring => {
+  #  :memorial_day => ["BBQ"]
+  #}
+#}
