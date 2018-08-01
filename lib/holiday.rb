@@ -75,7 +75,7 @@ data.map do |holiday, supplies|
 return holiday
 
 end
-new_array.flatten
+
 end
 end
 end
